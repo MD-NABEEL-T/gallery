@@ -4,7 +4,7 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 #g1{
-    color:rgb(253, 110, 110);
+    color:orange;
     font-size: 200%;
 
 }
@@ -29,28 +29,26 @@ body{
 
 }
 #g6{
-    color:white;
+    color:red;
     font-size: 200%;
 
 }
 .Gallery{
     transition: all 2s ease-in-out 1s;
     position:relative;
-    width: 250px;
+    width: 200px;
     height: 200px;
-    border: 2px solid black;
     float:left;
     margin:30px;
-    background-color: #4D5671;
 
 }
 img{
     transition: all 2s ease-in-out 1s;
-    position:absolute;
-    bottom:0px;
-    right:0px;
-    width: 65%;
-    height: auto;
+    /* position:absolute; */
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+
 }
 h1{
     text-align: center;
